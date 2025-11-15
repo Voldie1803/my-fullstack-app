@@ -5,7 +5,7 @@ from fastapi import FastAPI
     from fastapi.middleware.cors import CORSMiddleware
     
     # Get the MongoDB connection string from Vercel's environment variables
-    MONGODB_URI = os.environ.get("MONGODB_URI")
+    MONGODB_URI = os.environ.get("mongodb+srv://vercel-user1:Vercel123@cluster0.2cyjolj.mongodb.net/")
     
     # Global variables for client and database
     client = None
